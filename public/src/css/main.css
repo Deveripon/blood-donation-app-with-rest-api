@@ -1,0 +1,43 @@
+/* .registration-login-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(100% - 700px);
+  background-color: aqua;
+  height: calc(100% - 400px);
+} */
+/* .login-section {
+  display: block;
+} */
+
+.registration-section {
+  display: none;
+}
+
+button {
+  border-bottom: 3px solid transparent;
+  padding-bottom: 10px;
+}
+
+button.active {
+  color: red;
+  border-bottom: 3px solid red;
+}
+
+@media all and (max-width:668px) {
+  .registration-login-area {
+    width: 660px !important;
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .left-area {
+    display: none;
+  }
+
+  .right-area {
+    border-radius: 20px;
+    width: calc(100vw - 60px);
+  }
+}
