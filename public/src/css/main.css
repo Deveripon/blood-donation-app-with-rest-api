@@ -51,6 +51,11 @@ button.active {
 
 @media all and (max-width:400px) {
   .registration-login-area {
-    height: calc(100vh - 10%) !important;
+    height: calc(100vh - 30%) !important;
+  }
+
+  .right-area {
+    border-radius: 10px;
+    height: calc(100vh - 50%) !important;
   }
 }
