@@ -59,3 +59,30 @@ button.active {
     height: calc(100vh - 25%) !important;
   }
 }
+
+@media all and (max-height:1100px) {
+  .registration-login-area {
+    height: calc(100vh - 35%) !important;
+  }
+
+}
+
+@media all and (max-height:768px) {
+  .registration-login-area {
+    height: calc(100vh - 15%) !important;
+  }
+
+}
+
+@media all and (max-height:600px) {
+  .registration-login-area {
+    height: 100vh !important;
+  }
+
+  .right-area {
+    border-radius: 10px;
+    height: calc(100vh - 0%) !important;
+    overflow: scroll;
+  }
+
+}
