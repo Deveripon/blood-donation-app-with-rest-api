@@ -56,6 +56,6 @@ button.active {
 
   .right-area {
     border-radius: 10px;
-    height: calc(100vh - 50%) !important;
+    height: calc(100vh - 25%) !important;
   }
 }
