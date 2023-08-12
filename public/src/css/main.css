@@ -29,6 +29,7 @@ button.active {
     width: 660px !important;
     display: flex;
     justify-content: center;
+    height: calc(100vh - 50%) !important;
 
   }
 
@@ -39,5 +40,17 @@ button.active {
   .right-area {
     border-radius: 20px;
     width: calc(100vw - 60px);
+  }
+}
+
+@media all and (max-width:992px) {
+  .registration-login-area {
+    height: calc(100vh - 50%) !important;
+  }
+}
+
+@media all and (max-width:400px) {
+  .registration-login-area {
+    height: calc(100vh - 10%) !important;
   }
 }
