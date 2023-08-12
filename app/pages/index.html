@@ -42,29 +42,30 @@
               <label class="text-gray-700   text-md" for="name">Name</label>
               <input
                 class="p-2 rounded-md outline-none border border-gray-500 dark:bg-transparent  bg-gray-200 focus:border-purple-700"
-                type="text" />
+                type="text" name="name" id="name" />
             </div>
             <div class="form-group flex flex-col mb-2">
-              <label class="text-gray-700   text-md" for="name">Email</label>
+              <label class="text-gray-700   text-md" for="regemail">Email</label>
               <input
                 class="p-2 rounded-md outline-none border border-gray-500 dark:bg-transparent  bg-gray-200 focus:border-purple-700"
-                type="text" />
+                type="text" name="email" id="regemail" />
             </div>
             <div class="form-group flex flex-col mb-2">
-              <label class="text-gray-700   text-md" for="name">Password</label>
+              <label class="text-gray-700  text-md" for="regpassword">Password</label>
               <input
                 class="p-2 rounded-md password outline-none border border-gray-500 dark:bg-transparent  bg-gray-200 focus:border-purple-700"
-                type="password" />
+                type="password" name="password" id="regpassword" />
             </div>
             <div class="form-group flex flex-col mb-2">
-              <label class="text-gray-700  text-md" for="name">Confirm Password</label>
+              <label class="text-gray-700  text-md" for="conf-password">Confirm Password</label>
               <input
                 class="p-2 conf-password rounded-md outline-none border border-gray-500 dark:bg-transparent  bg-gray-200 focus:border-purple-700"
-                type="password" />
+                type="password" name="conf-password" id="conf-password" />
             </div>
             <div class="form-group flex flex-col mb-2">
-              <label class="text-gray-700  text-md" for="passShow">
-                <input type="checkbox" onclick="passShowFunction()" name="passShow"> Show Password</label>
+              <label class="text-gray-700  text-md" for="regpassShow">
+                <input type="checkbox" id="regpassShow" onclick="passShowFunction()" name="passShow"> Show
+                Password</label>
             </div>
 
 
@@ -106,11 +107,11 @@
               <label class="text-gray-700 text-md" for="password">Password</label>
               <input
                 class="p-2 password rounded-md outline-none border border-gray-500 dark:bg-transparent  bg-gray-200 focus:border-purple-700"
-                type="password" name="password" />
+                type="password" id="password" name="password" />
             </div>
             <div class="form-group flex flex-col mb-2">
               <label class="text-gray-700  text-md" for="passShow">
-                <input type="checkbox" onclick="passShowFunction()" name="passShow"> Show Password</label>
+                <input type="checkbox" onclick="passShowFunction()" id="passShow" name="passShow"> Show Password</label>
             </div>
             <input
               class="bg-red-600 text-white font-medium mt-20 py-3 px-8 rounded-md cursor-pointer hover:bg-red-800 transform duration-300"
@@ -129,12 +130,7 @@
   </div>
   <!-- ========== Login and Registration section End From Here ========== -->
 
-
-
-
-  <script src="../../public/src/js/data.js"></script>
-  <script src="../../public/src/js/functions.js"></script>
-  <script src="../../public/src/js/index.js"></script>
+  <script src="./scripts/index.js"></script>
 </body>
 
 </html>
